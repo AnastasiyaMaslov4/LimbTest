@@ -1,0 +1,578 @@
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    /* width: 1200px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link, a:visited{
+    color: #000000;
+    outline: none;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('img/блок1-подложка\(номер\).png'), no-repeat;
+    margin-bottom: 20px;
+}
+
+.logo, h1, h2, h3, h4, h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #EB5B00;
+}
+
+.logo {
+    width: 305px;
+    color:  #03989E;
+    text-transform: none;
+    font-size: 68px;
+    font-weight: 900px;
+    margin: 0;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.navigation li{
+    margin-right: 25px;
+}
+
+.tel {
+    width: 305px;
+    height: 85px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: url('img/блок1-подложка\(номер\).png') no-repeat center right;
+}
+
+#Main {
+    height: 603px;
+    color: #FFFFFF;
+    background: #03989E url('img/блок1-фото_Монтажная\ область\ 1.png') no-repeat right;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    width: 60%;
+    font-size: 42px;
+    line-height: 52px;
+    margin: 0,5em;
+}
+
+.mainP {
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 30px;
+    width: 500px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.mainNumbers {
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: bold;
+}
+
+.numbers {
+    font-size: 38px;
+    margin: 0;
+}
+
+.numbersP {
+    font-size: 17px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.buyBtn {
+    width: 500px;
+    background-color: #EB5B00;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.buyBtn a {
+    color: #FFFFFF;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h2 {
+    width: fit-content;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 52px;
+    border-bottom: #03989E solid 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.servicesInfo {
+    border: solid #03989E 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    height: 50%;
+}
+
+.servicesPic {
+    background-color: #03989E;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: solid #03989E 7px;
+    border-radius: 50px 50px 0 0;
+}
+
+.services div p {
+    font-size: 17px;
+    line-height: 20px;
+}
+
+
+.h3 {
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.servicesList li {
+    padding-left: 50px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    background: url('img/блок2-метка.png') no-repeat top left;
+    margin-bottom: 20px;
+}
+
+#Mission {
+    padding-top: 50px;
+}
+
+.missionDiv {
+    padding: 50px 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    background: url('img/блоки\ 3\,6-фон.png') no-repeat top right;
+}
+
+.missionPic {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.missionText {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.helpDiv {
+    padding: 50px 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 30px;
+}
+
+.helpDiv p {
+    grid-column: 1;
+    grid-row: 1/4;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.helpDiv div {
+    grid-column: 1;
+    grid-row: 4;
+    margin-top: 1em;
+}
+
+.helpDiv img {
+    grid-column: 2;
+    grid-row: 1/5;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.processList {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.processList li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 30px;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+
+.processList li h3 {
+    margin-top: auto;
+    margin-bottom: 0;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.processList li p {
+    margin-bottom: auto;
+    margin-top: 0;
+}
+
+.positive h3 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.positive p {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.positive img {
+    grid-column: 2;
+    grid-row: 1/3;
+    margin-left: auto;
+}
+
+.negative h3 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.negative p {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.negative img {
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+.h1 {
+    background: url('img/блок5-цифра1.png') no-repeat top left;
+}
+
+.h2 {
+    background: url('img/блок5-цифра2.png') no-repeat top left;
+}
+
+.h3 {
+    background: url('img/блок5-цифра3.png') no-repeat top left;
+}
+
+.h4 {
+    background: url('img/блок5-цифра4.png') no-repeat top left;
+}
+
+.h5 {
+    background: url('img/блок5-цифра5.png') no-repeat top left;
+}
+
+.aboutDiv {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    background: url('img/блок\ 3-фон.png') no-repeat top left;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+video {
+    margin-right: 30px;
+    margin-left: 30px;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+form {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr) 0,5fr 0,5fr;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+#TextForm {
+    grid-column: 1;
+    grid-row: 1;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #03989E;
+    border: #03989E solid;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+input:focus {
+    border: none;
+    outline: 0;
+}
+
+input::placeholder{
+    color: #FFFFFF;
+}
+
+#TelForm {
+    grid-column: 1;
+    grid-row: 2;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #03989E;
+    border: #03989E solid;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+#EmailForm {
+    grid-column: 1;
+    grid-row: 3;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #03989E;
+    border: #03989E solid;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+textarea {
+    grid-column: 2;
+    grid-row: 1/4;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    border: #03989E solid 7px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    resize: none;
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+textarea::placeholder {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+#CheckboxForm {
+    grid-column: 2;
+    grid-row: 4;
+    display: flex;
+    align-items: center;
+}
+
+#Checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+#Checkbox + label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding-left: 30px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+#Checkbox:checked + label:before, 
+#Checkbox:not(:checked) + label:before {
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    border: #03989E solid 4px;
+    border-radius: 10px;
+    content: "";
+    position: absolute;
+} 
+
+#Checkbox:checked + label::after, 
+#Checkbox:not(:checked) + label::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 8px;
+    width: 10px;
+    height: 5px;
+    border-radius: 1px;
+    border-left: 4px solid #03989E;
+    border-bottom: 4px solid #03989E;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#Checkbox:checked + label::after {
+    opacity: 1;
+}
+
+#Checkbox:not(:checked) + label::after{
+    opacity: 0;
+}
+
+label {
+    font-size: 13px;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+#ButtonForm {
+    grid-column: 2;
+    grid-row: 5;
+    background-color: #EB5B00;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    border-radius: 30px;
+    border: none;
+    width: 45%;
+    height: 40px;
+    margin-left: auto;
+}
+
+#Contacts {
+    margin-top: 50px;
+    position: relative;
+}
+
+.map {
+    position: relative;
+}
+
+.contactsDiv {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: #03989E;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+h4{
+    font-weight: 700;
+}
+
+.footerDiv {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    background-color: #03989E;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.footerNavigation li a {
+    color: #FFFFFF;
+}
+
+.footerServices, 
+.footerNav,
+.footerAbout {
+    width: 400px;
+}
+
+.copyrights {
+    display: flex;
+    align-items: center;
+}
+
+.copyrights .logo {
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+
+
