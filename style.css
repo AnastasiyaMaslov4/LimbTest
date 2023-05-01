@@ -582,6 +582,61 @@ h4{
     .services {
         display: block;
     }
+
+    .servicesDiv {
+        margin-bottom: 30px;
+    }
+
+    .missionDiv {
+        display: block;
+        height: auto;
+        background-color: #03989E;
+    }
+
+    .helpDiv {
+        display: block;
+    }
+
+    .processList {
+        display: block;
+    }
+
+    .processList li {
+        display: block;
+    }
+
+    .aboutDiv{
+        display: block;
+        height: auto;
+        background-color: #03989E;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    form {
+        display: block;
+    }
+
+    #TextForm, #TelForm, #EmailForm, textarea, #ButtonForm {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    #Contacts {
+        max-width: 600px;
+    }
+
+    .footerDiv {
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footerAbout {
+        width: auto;
+    }
 }
 
 
